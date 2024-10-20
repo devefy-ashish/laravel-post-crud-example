@@ -28,7 +28,7 @@ cd repository-name
 ## Install dependencies:
 
 composer install
-
+npm intall 
 ## Copy the example environment file:
 
 cp .env.example .env
@@ -67,5 +67,6 @@ DB_PASSWORD=your_database_password
 To start the development server, run:
 
 php artisan serve
+npm run dev
 
 Visit http://localhost:8000 in your web browser.
